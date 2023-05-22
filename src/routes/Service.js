@@ -13,8 +13,7 @@ function Service() {
         title="Our Service"
         text="Let's Detect"
         textareaPlaceholder="Enter news here..."
-        // button="Real"
-        // button1="Fake"
+       
         buttons={["Fake", "Real"]}
         url="/"
         btnClass="hide"
@@ -22,17 +21,7 @@ function Service() {
         isServicePage={true}
       />
 
-      {/* <div className="form-container">
-        <h1>Let's Detect</h1> */}
-
-      {/* <form>
-          <p>
-            <label for="News">Enter your news</label>
-          </p>
-          <textarea id="News" name="News" rows="8" cols="70"></textarea>
-        </form> */}
-
-      {/* </div> */}
+     
 
       <Footer />
     </>
